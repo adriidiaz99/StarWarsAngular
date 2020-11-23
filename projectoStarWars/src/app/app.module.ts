@@ -10,11 +10,13 @@ import { PlanetsListadoComponent } from './planets-listado/planets-listado.compo
 import { MatTableModule } from '@angular/material/table';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { PeliculasListadoComponent } from './peliculas-listado/peliculas-listado.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PlanetsListadoComponent
+    PlanetsListadoComponent,
+    PeliculasListadoComponent
   ],
   imports: [
     BrowserModule,
